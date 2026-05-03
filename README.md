@@ -1,3 +1,4 @@
+java
 class Solution {
     public int romanToInt(String s) {
         int toplam = 0;
@@ -6,6 +7,7 @@ class Solution {
             int simdiki = deger(s.charAt(i));
 
             if (i < s.length() - 1) {
+
                 int sonraki = deger(s.charAt(i + 1));
 
                 if (simdiki < sonraki) {
